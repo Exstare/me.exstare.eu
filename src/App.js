@@ -2,10 +2,12 @@ import dob from 'dob-to-age';
 import projects from './data/projects.json';
 import socials from './data/socials.json';
 
+import { FaGithub, FaYoutube, FaTwitch, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { BsDiscord } from 'react-icons/bs';
+
+const icons = [FaGithub, FaYoutube, FaTwitch, FaInstagram, FaTwitter, BsDiscord]
+
 function App() {
-
-
-
   return (
     <div className="bg-background h-screen w-screen p-12">
       {/* Me card */}
@@ -51,10 +53,10 @@ function App() {
         <div className="text-2xl font-bold">Socials</div>
         {
           socials.map((item, idx) => {
-
+            const Icon = icons[idx];
             return (
-              <div className="">
-
+              <div className="flex bg-secondary rounded-lg">
+                <Icon className=" h-20 w-20" />
               </div>
             )
           })
