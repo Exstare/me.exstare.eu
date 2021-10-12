@@ -55,10 +55,11 @@ function App() {
           {
             socials.map((item, idx) => {
               const Icon = icons[idx];
-              const iconClass = `h-14 w-14 fill-current text-icons-${item.id}`;
+              const iconClass = `h-14 w-14 fill-current text-icons-white`;
+              const bgClass = `flex rounded-xl h-24 w-24 flex items-center justify-center bg-icons-${item.id}`
 
               return (
-                <a href={item.link} target="_blank" rel="noreferrer" className="flex bg-secondary rounded-lg h-24 w-24 flex items-center justify-center">
+                <a href={item.link} target="_blank" rel="noreferrer" className={bgClass}>
                   <Icon className={iconClass} />
                 </a>
               )

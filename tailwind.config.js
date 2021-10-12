@@ -7,7 +7,7 @@ module.exports = {
         background: '#181D29',
         secondary: '#1D2331',
         icons: {
-          github: "#000000",
+          github: "#010101",
           discord: "#5865F2",
           youtube: "#ff0000",
           twitch: "#6441A5",
