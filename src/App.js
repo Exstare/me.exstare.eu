@@ -5,7 +5,7 @@ import socials from './data/socials.json';
 import { FaGithub, FaYoutube, FaTwitch, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { BsDiscord } from 'react-icons/bs';
 
-const icons = [FaGithub, FaYoutube, FaTwitch, FaInstagram, FaTwitter, BsDiscord]
+const icons = [FaGithub, BsDiscord, FaYoutube, FaTwitch, FaInstagram, FaTwitter]
 
 function App() {
   return (
