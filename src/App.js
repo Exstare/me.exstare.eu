@@ -33,7 +33,7 @@ function App() {
       {/* Projects */}
       <div className="mt-5 text-white">
         <div className="text-2xl font-bold">Projects</div>
-        <div className="flex flex-row space-x-4">
+        <div className="flex flex-row space-x-4 -2">
           {
             projects.map(item => {
               return (
@@ -51,18 +51,20 @@ function App() {
       {/* Socals */}
       <div className="mt-5 text-white">
         <div className="text-2xl font-bold">Socials</div>
-        {
-          socials.map((item, idx) => {
-            const Icon = icons[idx];
-            const iconClass = `h-14 w-14 fill-current text-icons-${item.id}`;
+        <div className="flex justify-between mt-2">
+          {
+            socials.map((item, idx) => {
+              const Icon = icons[idx];
+              const iconClass = `h-14 w-14 fill-current text-icons-${item.id}`;
 
-            return (
-              <a href={item.link} target="_blank" rel="noreferrer" className="flex bg-secondary rounded-lg h-20 w-20 flex items-center">
-                <Icon className={iconClass} />
-              </a>
-            )
-          })
-        }
+              return (
+                <a href={item.link} target="_blank" rel="noreferrer" className="flex bg-secondary rounded-lg h-24 w-24 flex items-center justify-center">
+                  <Icon className={iconClass} />
+                </a>
+              )
+            })
+          }
+        </div>
       </div>
 
     </div>
