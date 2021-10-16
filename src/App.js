@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="bg-background h-screen w-screen p-12">
       {/* Me card */}
-      <div className="flex flex-row bg-secondary w-full content-center place-items-center p-10 rounded-card">
-        <img src="https://media.discordapp.net/attachments/869479978515959879/894546333170548746/image0_1.jpg" className="w-44 ml-5 rounded-2xl" alt="pf" />
-
+      <div className="flex flex-row bg-secondary w-full content-center place-items-center p-10 rounded-card justify-between">
+        
         {/* Left */}
-        <div className="flex">
+        <div className="flex items-center justify-center">
+        <img src="https://media.discordapp.net/attachments/869479978515959879/894546333170548746/image0_1.jpg" className="w-44 ml-5 rounded-2xl" alt="pf" />
           <div className="text-white ml-7">
             <h1 className="font-bold text-3xl">Exstare</h1>
             <div className="text-lg">Professional idiot, gamer, coder</div>
@@ -23,8 +23,8 @@ function App() {
         </div>
 
         {/* Right */}
-        <div className="text-white">
-          <div>👨 | He/him</div>
+        <div className="text-white text-lg space-y-5 mr-16">
+          <div>👨 | He/her</div>
           <div>🎂 | {dob('2004-03-25')}</div>
           <div>🌍 | The Netherlands</div>
         </div>
