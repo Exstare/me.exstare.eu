@@ -24,7 +24,7 @@ function App() {
 
         {/* Right */}
         <div className="text-white text-lg space-y-5 mr-16">
-          <div>👨 | He/her</div>
+          <div>👨 | He/him</div>
           <div>🎂 | {dob('2004-03-25')}</div>
           <div>🌍 | The Netherlands</div>
         </div>
