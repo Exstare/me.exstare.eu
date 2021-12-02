@@ -1,42 +1,36 @@
 [
     {
         "id": "github",
-        "color": "#000000",
         "icon": "FaGithub",
         "iconLib": "fa",
         "link": "https://github.com/Exstare"
     },
     {
         "id": "discord",
-        "color": "#5865F2",
         "icon": "BsDiscord",
         "iconLib": "bs",
         "link": "https://discord.com/users/462914535351779328"
     },
     {
         "id": "youtube",
-        "color": "#ff0000",
         "icon": "FaYoutube",
         "iconLib": "fa",
-        "link": ""
+        "link": "https://www.youtube.com/channel/UCRwjM_d-oqKHf99FXpFIv-A"
     },
     {
         "id": "twitch",
-        "color": "#6441A5",
         "icon": "FaTwitch",
         "iconLib": "fa",
         "link": "https://twitch.com/Exstare"
     },
     {
         "id": "instagram",
-        "color": "#C13584",
         "icon": "FaInstagram",
         "iconLib": "fa",
         "link": "https://instagram.com/exstare"
     },
     {
         "id": "twitter",
-        "color": "#36D8FF",
         "icon": "FaTwitter",
         "iconLib": "fa",
         "link": "https://twitter.com/Exstare_"
